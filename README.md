@@ -35,15 +35,19 @@ lovebird$ help
 
 lovebird$ excuse
 
-# 💔 💔  I Just Need A Little Space.
+# 💔💔  I Just Need A Little Space.
 
 lovebird$ reaction
 
-# 🙌 🙌  I can’t believe this.
+# 🙌🙌  I can’t believe this.
 
 lovebird$ compliment
 
-# 😻 😻  You make me feel like it's summer.
+# 😻😻  You make me feel like it's summer.
+
+lovebird$ gift
+
+# 😻😻   Star Wars Lightsaber Candlestick.
 
 ```
 

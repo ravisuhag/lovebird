@@ -4,6 +4,7 @@ var vorpal = require('vorpal')();
 var excuses = require('./store/excuses');
 var reaction = require('./store/counter');
 var compliments = require('./store/compliments');
+var gifts = require('./store/gifts');
 var love = require('./lib/love_count');
 var chalk = require('chalk');
 var emoji = require('node-emoji');
@@ -52,7 +53,19 @@ vorpal
         callback();
     });
 
+//  Gifts command
+vorpal
+    .command('gift', 'Give something nice and save your ass.')
+    .action(function(args, callback) {
 
+        var gift = gifts[getRandomInt(0, gifts.length)];
+
+        this.log(' ');
+        this.log(emoji.emojify(':heart_eyes_cat:  :heart_eyes_cat:  '), chalk.yellow(gift));
+        this.log(' ');
+
+        callback();
+    });
 
 
 

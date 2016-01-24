@@ -33,8 +33,8 @@ lovebird$ help
 #    reaction           Reaction for dummies who got dumped.
 #    compliment         Say something nice and save your ass.
 #    gift               Give something nice and save your ass.
-#    propose            Give something nice and save your ass.
-#    survive            Give something nice and save your ass.
+#    propose            Stop being shy and hit it hard.
+#    survive            Get out of your shell and fight it.
 ```
 
 #### `excuse` : best excuses to get out of relationship

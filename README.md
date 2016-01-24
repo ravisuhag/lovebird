@@ -54,6 +54,5 @@ lovebird$ compliment
 - [ ] `compliments` (Say something nice and save your ass)
 
 
-## Contributors
-
-See the awesome people
+## Author
+[Ravi Suhag](http://www.ravisuhag.com)

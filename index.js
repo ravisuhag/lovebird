@@ -4,11 +4,13 @@ var vorpal = require('vorpal')();
 var excuses = require('./store/excuses');
 var reaction = require('./store/counter');
 var compliments = require('./store/compliments');
+var love = require('./lib/love_count');
 var chalk = require('chalk');
 var emoji = require('node-emoji');
 var ascii_art = require('./lib/ascii_art');
 
-//  Define commands 
+
+//  Excuse command
 vorpal
     .command('excuse', 'Best excuses to get out of relationship')
     .action(function(args, callback) {
@@ -22,7 +24,7 @@ vorpal
         callback();
     });
 
-//  Define commands 
+//  Reaction command
 vorpal
     .command('reaction', 'Reaction for dummies who got dumped.')
     .action(function(args, callback) {
@@ -36,7 +38,7 @@ vorpal
         callback();
     });
 
-//  Define commands 
+//  Compliment command
 vorpal
     .command('compliment', 'Say something nice and save your ass.')
     .action(function(args, callback) {

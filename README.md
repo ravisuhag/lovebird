@@ -51,6 +51,14 @@ lovebird$ reaction
 # 🙌🙌  I can’t believe this.
 ```
 
+#### `survive` : get out of your shell and fight it.
+
+```sh
+lovebird$ survive
+
+# 🙌🙌  Eat healthfully and regularly.
+```
+
 #### `compliment` : say something nice and save your ass
 
 ```sh
@@ -87,6 +95,7 @@ lovebird$ gift
 - [x] `compliments` (Say something nice and save your ass)
 - [x] `gifts`  (Give something nice and save your ass.)
 - [x] `propose` (Stop being shy and hit it hard.)
+- [x] `survive` (Get out of your shell and fight it.)
 - [ ] `count` (Count the love.)
 
 

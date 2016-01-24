@@ -71,7 +71,7 @@ vorpal
 
 //  Propose command
 vorpal
-    .command('propose', 'Give something nice and save your ass.')
+    .command('propose', 'Stop being shy and hit it hard.')
     .action(function(args, callback) {
 
         var propose = proposes[getRandomInt(0, proposes.length)];
@@ -85,7 +85,7 @@ vorpal
 
 //  Survive command
 vorpal
-    .command('survive', 'Give something nice and save your ass.')
+    .command('survive', 'Get out of your shell and fight it.')
     .action(function(args, callback) {
 
         var survive = survives[getRandomInt(0, survives.length)];

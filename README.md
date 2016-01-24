@@ -32,6 +32,9 @@ lovebird$ help
 #    excuse             Best excuses to get out of relationship
 #    reaction           Reaction for dummies who got dumped.
 #    compliment         Say something nice and save your ass.
+#    gift               Give something nice and save your ass.
+#    propose            Give something nice and save your ass.
+#    survive            Give something nice and save your ass.
 ```
 
 #### `excuse` : best excuses to get out of relationship

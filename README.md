@@ -34,7 +34,7 @@ lovebird$ help
 #    compliment         Say something nice and save your ass.
 ```
 
-### `excuse` Best excuses to get out of relationship
+#### `excuse` : best excuses to get out of relationship
 
 ```sh
 lovebird$ excuse
@@ -42,7 +42,7 @@ lovebird$ excuse
 # 💔💔  I Just Need A Little Space.
 ```
 
-### `reaction` Reaction for dummies who just got dumped
+#### `reaction` : reaction for dummies who just got dumped
 
 ```sh
 lovebird$ reaction
@@ -50,7 +50,7 @@ lovebird$ reaction
 # 🙌🙌  I can’t believe this.
 ```
 
-### `compliment` Say something nice and save your ass
+#### `compliment` : say something nice and save your ass
 
 ```sh
 lovebird$ compliment
@@ -58,7 +58,7 @@ lovebird$ compliment
 # 😻😻  You make me feel like it's summer.
 ```
 
-### `gifts` Give something nice and save your ass
+#### `gifts` : give something nice and save your ass
 
 ```sh
 lovebird$ gift

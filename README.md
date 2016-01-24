@@ -1,8 +1,8 @@
 <img align="center" src="media/icon.png">
 
-> For the lovebirds but not by lovebird!
+> For the lovebirds but not by lovebird
 
-Falling in love is easy but keeping it alive is hard or sometimes it is better to just let it go. We (Not me ;) geeks are known for failing at it miserably. But no more, we code for every problem in our life then why not this. So geeks, I present you `lovebird`. One stop solution for your love issues from breakup to compliments, lovebird have your back ;) So go ahead gfall in love.
+Falling in love is easy but keeping it alive is hard or sometimes it is better to just let it go. We (Not me ;) geeks are known for failing at it miserably. But no more, we code for every problem in our life then why not this. So geeks, I present you `lovebird`. One stop solution for your love issues from breakup to compliments, lovebird have your back ;) So go ahead fall in love.
 
 ## Requirements
 
@@ -10,18 +10,18 @@ Falling in love is easy but keeping it alive is hard or sometimes it is better t
 
 ## Installation
 
-```cli
+```
 npm install -g lovebird
 ```
 ## Running lovebird
 
-```cli
+```
 $ lovebird
-#*********************************************
-#*                                           *
-#*               LOVEBIRD                    *
-#*                                           *
-#*********************************************
+# *********************************************
+# *                                           *
+# *               LOVEBIRD                    *
+# *                                           *
+# *********************************************
 
 lovebird$ help
 

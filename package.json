@@ -1,0 +1,25 @@
+{
+  "name": "lovebird",
+  "version": "1.0.0",
+  "description": "For the lovebird but not by lovebird!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravisuhag/lovebird.git"
+  },
+  "author": "ravisuhag",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravisuhag/lovebird/issues"
+  },
+  "bin": {
+    "lovebird": "./index.js"
+  },
+  "homepage": "https://github.com/ravisuhag/lovebird#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}

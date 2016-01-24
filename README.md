@@ -1,3 +1,5 @@
+<img align="center" src="media/icon.png">
+
 # lovebirds
 For the lovebirds but not by lovebird!
 

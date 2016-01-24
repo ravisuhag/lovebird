@@ -56,6 +56,7 @@ lovebird$ gift
 - [x] `excuse` (Best excuses to get out of relationship)
 - [x] `reaction` (Reaction for dummies who got dumped)
 - [ ] `compliments` (Say something nice and save your ass)
+- [ ] `compliments` (Give something nice and save your ass.)
 
 
 ## Author

@@ -58,6 +58,19 @@ lovebird$ compliment
 
 # 😻😻  You make me feel like it's summer.
 ```
+#### `propose` : stop being shy and hit it hard.
+
+```sh
+lovebird$ propose
+
+# 😻😻 I wanna say I love you, I wanna hold you tight
+# I want your arms around me & I want your lips on mine
+# I wanna say I love you, but, babe I 'm terrified
+# My hands are shaking, my heart is racing
+# Cause it 's something I can't hide, it 's something I can't deny
+# So here I go.....
+# Baby, I lo - o - o - ve you......
+```
 
 #### `gifts` : give something nice and save your ass
 
@@ -73,7 +86,7 @@ lovebird$ gift
 - [x] `reaction` (Reaction for dummies who got dumped)
 - [x] `compliments` (Say something nice and save your ass)
 - [x] `gifts`  (Give something nice and save your ass.)
-- [ ] `propose` (Stop being shy and hit it hard.)
+- [x] `propose` (Stop being shy and hit it hard.)
 - [ ] `count` (Count the love.)
 
 

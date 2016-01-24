@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/ravisuhag/lovebird#readme",
   "dependencies": {
-    "commander": "^2.9.0"
+    "chalk": "^1.1.1",
+    "node-emoji": "^1.0.4",
+    "vorpal": "^1.6.1"
   }
 }

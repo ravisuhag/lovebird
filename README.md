@@ -40,6 +40,7 @@ lovebird$ help
 lovebird$ excuse
 
 # 💔💔  I Just Need A Little Space.
+```
 
 ### `reaction` Reaction for dummies who just got dumped
 

@@ -5,6 +5,7 @@ var excuses = require('./store/excuses');
 var reaction = require('./store/counter');
 var compliments = require('./store/compliments');
 var gifts = require('./store/gifts');
+var proposes = require('./store/proposes');
 var love = require('./lib/love_count');
 var chalk = require('chalk');
 var emoji = require('node-emoji');
@@ -62,6 +63,20 @@ vorpal
 
         this.log(' ');
         this.log(emoji.emojify(':heart_eyes_cat:  :heart_eyes_cat:  '), chalk.yellow(gift));
+        this.log(' ');
+
+        callback();
+    });
+
+//  Propose command
+vorpal
+    .command('propose', 'Give something nice and save your ass.')
+    .action(function(args, callback) {
+
+        var propose = proposes[getRandomInt(0, proposes.length)];
+
+        this.log(' ');
+        this.log(emoji.emojify(':heart_eyes_cat:  :heart_eyes_cat:  '), chalk.yellow(propose));
         this.log(' ');
 
         callback();

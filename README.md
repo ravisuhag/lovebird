@@ -10,12 +10,12 @@ Falling in love is easy but keeping it alive is hard or sometimes it is better t
 
 ## Installation
 
-```
+```sh
 npm install -g lovebird
 ```
 ## Running lovebird
 
-```
+```sh
 $ lovebird
 # *********************************************
 # *                                           *

@@ -1,7 +1,5 @@
 <img align="center" src="media/icon.png">
 
-> For the lovebirds but not by lovebird
-
 >“When the choice was: Do I want my love life determined by a psychologist or a mathematician, I pick mathematician every day of the week.” – Sam Yagan
 
 Falling in love is easy but keeping it alive is hard or sometimes it is better to just let it go. We (Not me ;) geeks are known for failing at it miserably. But no more, we code for every problem in our life then why not this. So geeks, I present you `lovebird`. One stop solution for your love issues from breakup to compliments, lovebird have your back ;) So go ahead fall in love.

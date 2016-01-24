@@ -33,6 +33,18 @@ lovebird$ help
 #    reaction           Reaction for dummies who got dumped.
 #    compliment         Say something nice and save your ass.
 
+lovebird$ excuse
+
+# 💔 💔  I Just Need A Little Space.
+
+lovebird$ reaction
+
+# 🙌 🙌  I can’t believe this.
+
+lovebird$ compliment
+
+# 😻 😻  You make me feel like it's summer.
+
 ```
 
 ## Commands

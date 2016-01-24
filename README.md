@@ -32,31 +32,47 @@ lovebird$ help
 #    excuse             Best excuses to get out of relationship
 #    reaction           Reaction for dummies who got dumped.
 #    compliment         Say something nice and save your ass.
+```
 
+### `excuse` Best excuses to get out of relationship
+
+```sh
 lovebird$ excuse
 
 # 💔💔  I Just Need A Little Space.
 
+### `reaction` Reaction for dummies who just got dumped
+
+```sh
 lovebird$ reaction
 
 # 🙌🙌  I can’t believe this.
+```
 
+### `compliment` Say something nice and save your ass
+
+```sh
 lovebird$ compliment
 
 # 😻😻  You make me feel like it's summer.
+```
 
+### `gifts` Give something nice and save your ass
+
+```sh
 lovebird$ gift
 
 # 😻😻   Star Wars Lightsaber Candlestick.
-
 ```
 
 ## Commands
 
 - [x] `excuse` (Best excuses to get out of relationship)
 - [x] `reaction` (Reaction for dummies who got dumped)
-- [ ] `compliments` (Say something nice and save your ass)
-- [ ] `gifts` (Give something nice and save your ass.)
+- [x] `compliments` (Say something nice and save your ass)
+- [x] `gifts`  (Give something nice and save your ass.)
+- [ ] `propose` (Stop being shy and hit it hard.)
+- [ ] `count` (Count the love.)
 
 
 ## Author

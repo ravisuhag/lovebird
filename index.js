@@ -2,6 +2,7 @@
 
 var vorpal = require('vorpal')();
 var excuses = require('./store/excuses');
+var reaction = require('./store/counter');
 var chalk = require('chalk');
 var emoji = require('node-emoji');
 var ascii_art = require('./lib/ascii_art');
@@ -10,6 +11,7 @@ var ascii_art = require('./lib/ascii_art');
 vorpal
     .command('excuse', 'Best excuses to get out of relationship')
     .action(function(args, callback) {
+
         var excuse = excuses[getRandomInt(0, excuses.length)];
 
         this.log(' ');
@@ -18,6 +20,27 @@ vorpal
 
         callback();
     });
+
+//  Define commands 
+vorpal
+    .command('reaction', 'Reaction for dummies who got dumped.')
+    .action(function(args, callback) {
+
+        var excuse = reaction[getRandomInt(0, reaction.length)];
+
+        this.log(' ');
+        this.log(emoji.emojify(':broken_heart: :broken_heart:  '), chalk.yellow(excuse));
+        this.log(' ');
+
+        callback();
+    });
+
+
+
+
+
+
+
 
 // Load Ascii birds art
 ascii_art.birds();

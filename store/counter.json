@@ -1,6 +1,8 @@
 [
     "Is this really what you want?",
-    "What am I going to tell [our friends/my parents/the kids]?",
+    "What am I going to tell our friends?",
+    "What am I going to tell my parents?",
+    "What am I going to tell our kids?",
     "Is there someone else?",
     "So it’s really over, then",
     "I love you",
@@ -14,5 +16,5 @@
     " Are you sure?",
     " How could you do this to me?",
     "I never cheated on you",
-    "Who is [he/she/it]?",
+    "Who is the other one?"
 ]

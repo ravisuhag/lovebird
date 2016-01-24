@@ -1,6 +1,6 @@
 {
   "name": "lovebird",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "For the lovebird but not by lovebird!",
   "main": "index.js",
   "scripts": {

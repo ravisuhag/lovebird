@@ -13,9 +13,9 @@ npm install -g lovebird
 
 ## Commands
 
-- [x] `excuse` (Get current user)
-- [x] `reaction` (See all posts created by current user)
-- [ ] `compliments` (See all posts made by by current user)
+- [x] `excuse` (Best excuses to get out of relationship)
+- [x] `reaction` (Reaction for dummies who got dumped)
+- [ ] `compliments` (Say something nice and save your ass)
 
 
 ## Contributors

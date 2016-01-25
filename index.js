@@ -103,6 +103,9 @@ vorpal
 // Load Ascii birds art
 ascii_art.birds();
 
+// Integrate help description.
+vorpal.find('help').description('Exits lovebird.');
+
 // Execute REPL
 vorpal
     .delimiter(chalk.bold.green('lovebird$'))

@@ -13,9 +13,9 @@ Falling in love is easy but keeping it alive is hard or sometimes it is better t
 ```sh
 npm install -g lovebird
 ```
-<img align="center" src="media/bird.gif">
-
 ## Running lovebird
+
+<img align="center" src="media/bird.gif">
 
 ```sh
 $ lovebird

@@ -119,7 +119,7 @@ vorpal
 ascii_art.birds();
 
 // Integrate help description.
-vorpal.find('help').description('Exits lovebird.');
+vorpal.find('exit').description('Exits lovebird.');
 
 // Execute REPL
 vorpal

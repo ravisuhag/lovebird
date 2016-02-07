@@ -92,6 +92,13 @@ lovebird$ gift
 
 # 😻😻   Star Wars Lightsaber Candlestick.
 ```
+#### `idea` : Feeling out of luck. Well, Hope you are lucky
+
+```sh
+lovebird$ idea
+
+# 😻😻   Cuddle and have pizza.
+```
 
 ## Commands
 
@@ -101,6 +108,7 @@ lovebird$ gift
 - [x] `gifts`  (Give something nice and save your ass.)
 - [x] `propose` (Stop being shy and hit it hard.)
 - [x] `survive` (Get out of your shell and fight it.)
+- [x] `idea` (Feeling out of luck. Well, Hope you are lucky!)
 - [ ] `count` (Count the love.)
 
 

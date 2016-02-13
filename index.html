@@ -147,9 +147,9 @@
       document.getElementById('quote').textContent = quote;
       ga('send', {
         hitType: 'event',
-        eventCategory: 'LoveActions',
-        eventAction: file,
-        eventLabel: quote
+        eventCategory: file,
+        eventAction: quote,
+        eventLabel: file + quote
       });
 
     });

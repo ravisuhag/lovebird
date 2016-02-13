@@ -1,27 +1,27 @@
 {
-  "name": "lovebird",
-  "version": "1.4.1",
-  "description": "For the lovebird but not by lovebird!",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ravisuhag/lovebird.git"
-  },
-  "author": "ravisuhag",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ravisuhag/lovebird/issues"
-  },
-  "bin": {
-    "lovebird": "./index.js"
-  },
-  "homepage": "https://github.com/ravisuhag/lovebird#readme",
-  "dependencies": {
-    "chalk": "^1.1.1",
-    "node-emoji": "^1.0.4",
-    "vorpal": "^1.6.1"
-  }
+    "name": "lovebird",
+    "version": "1.5.0",
+    "description": "For the lovebirds but not by lovebird!",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ravisuhag/lovebird.git"
+    },
+    "author": "ravisuhag",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ravisuhag/lovebird/issues"
+    },
+    "bin": {
+        "lovebird": "./index.js"
+    },
+    "homepage": "https://github.com/ravisuhag/lovebird#readme",
+    "dependencies": {
+        "chalk": "^1.1.1",
+        "node-emoji": "^1.0.4",
+        "vorpal": "^1.6.1"
+    }
 }

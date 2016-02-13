@@ -99,6 +99,13 @@ lovebird$ idea
 
 # 😻😻   Cuddle and have pizza.
 ```
+#### `counselor` : Feeling depressed? Meet professionals
+
+```sh
+lovebird$ counselor
+
+# 😻😻   Avani Parekh - lovedoctor.in
+```
 
 ## Commands
 
@@ -109,6 +116,7 @@ lovebird$ idea
 - [x] `propose` (Stop being shy and hit it hard.)
 - [x] `survive` (Get out of your shell and fight it.)
 - [x] `idea` (Feeling out of luck. Well, Hope you are lucky!)
+- [x] `counselor` (Feeling depressed? Meet professionals.)
 - [ ] `count` (Count the love.)
 
 

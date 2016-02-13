@@ -8,6 +8,7 @@ var gifts = require('./store/gifts');
 var proposes = require('./store/proposes');
 var survives = require('./store/survives');
 var ideas = require('./store/ideas');
+var counselors = require('./store/ideas');
 var love = require('./lib/love_count');
 var chalk = require('chalk');
 var emoji = require('node-emoji');
@@ -107,6 +108,20 @@ vorpal
 
         this.log(' ');
         this.log(emoji.emojify(':heart_eyes_cat:  :heart_eyes_cat:  '), chalk.yellow(idea));
+        this.log(' ');
+
+        callback();
+    });
+
+//  Counselor command
+vorpal
+    .command('counselor', 'Feeling depressed? Meet professionals.')
+    .action(function(args, callback) {
+
+        var counselor = counselors[getRandomInt(0, survives.length)];
+
+        this.log(' ');
+        this.log(emoji.emojify(':heart_eyes_cat:  :heart_eyes_cat:  '), chalk.yellow(counselor));
         this.log(' ');
 
         callback();

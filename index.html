@@ -139,10 +139,18 @@
   </div>
   <script>
   function load(file) {
+    
+
     loadJSON('store/' + file + '.json', function(response) {
       var data = JSON.parse(response);
       var quote = data[getRandomInt(0, data.length)];
       document.getElementById('quote').textContent = quote;
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'LoveActions',
+        eventAction: file,
+        eventLabel: quote
+      });
 
     });
   }

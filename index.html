@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0" />
+  <link rel="shortcut icon" href="" />
+  <!--[if lte IE 8]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  <title>Lovebird - One stop solution for your love issues from breakup to compliments</title>
+  <meta name="description" content="One stop solution for your love issues from breakup to compliments." />
+  <link rel="author" href="Ravi Suhag" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Lovebird" />
+  <meta property="og:description" content=">Lovebird - One stop solution for your love issues from breakup to compliments" />
+  <meta property="og:url" content="http://ravisuha.github.com/lovebird" />
+  <meta property="og:site_name" content="Lovebird" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content=">Lovebird - One stop solution for your love issues from breakup to compliments" />
+  <meta name="twitter:title" content=">Lovebird - One stop solution for your love issues from breakup to compliments" />
+  <meta name="twitter:site" content="@Ravi_Suhag" />
+  <meta name="twitter:domain" content="ravisuhag.com" />
+  <meta name="twitter:creator" content="@Ravi_Suhag" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300' rel='stylesheet' type='text/css'>
+  <style>
+  body {
+    background-color: #cf4646;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: lighter;
+    line-height: 1.8em
+  }
+  
+  .sidebar {
+    width: 40%;
+    float: left;
+  }
+  
+  .quote_wrap {
+    width: 60%;
+    float: right
+  }
+  
+  .box {
+    padding: 30px;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-bottom: 30px
+  }
+  
+  .sub-head {
+    font-size: 25px;
+    line-height: 1.3em
+  }
+  
+  .u-t-20 {
+    padding-top: 20px;
+  }
+  
+  .desc {
+    color: #fafafa
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px 10px;
+    min-width: 100px;
+    border: solid 1px #fff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, .05);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover,
+  button:focus {
+    background-color: rgba(255, 255, 255, .2);
+    outline: none;
+  }
+  
+  .mark {
+    font-size: 150px;
+    margin-bottom: 0;
+    line-height: 1px;
+  }
+  
+  #quote {
+    font-size: 40px;
+    margin-top:0;
+    line-height: 1.4em;
+    font-style: italic;
+  }
+  .quote_wrap .box{
+    margin-top: 190px;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="box">
+      <h1>LOVEBIRD</h1>
+      <div class="sub-head">One stop solution for your love issues from breakup to compliments</div>
+      <p class="u-t-20 desc">Falling in love is easy but keeping it alive is hard or sometimes it is better to just let it go. Geeks are known for failing at it miserably. But no more, we code for every problem in our life then why not this. So geeks, I present you lovebird. One stop solution for your love issues from breakup to compliments, lovebird have your back. So go ahead fall in love.</p>
+      <p style="font-style: italic; font-size: 40px">I desperately need a/an</p>
+      <button onclick="load('excuses')">Excuse</button>
+      <button onclick="load('counter')">Reaction</button>
+      <button onclick="load('proposes')">Propose</button>
+      <button onclick="load('survives')">Survive</button>
+      <button onclick="load('ideas')">Idea</button>
+      <button onclick="load('gifts')">Gift</button>
+      <button onclick="load('compliments')">Compliment</button>
+    </div>
+  </div>
+  <div class="quote_wrap">
+    <div class="box">
+      <p id="quote"></p>
+    </div>
+  </div>
+  <script>
+  function load(file) {
+    loadJSON('store/' + file + '.json', function(response) {
+      var data = JSON.parse(response);
+      var quote = data[getRandomInt(0, data.length)];
+      document.getElementById('quote').textContent = quote;
+
+    });
+  }
+
+  function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  function loadJSON(file, callback) {
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', file, true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function() {
+      if (xobj.readyState == 4 && xobj.status == "200") {
+        callback(xobj.responseText);
+      }
+    };
+    xobj.send(null);
+  }
+  </script>
+</body>
+
+</html>

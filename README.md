@@ -10,14 +10,14 @@ Falling in love is easy but keeping it alive is hard or sometimes it is better t
 
 ## Installation
 
-```sh
+``` sh
 npm install -g lovebird
 ```
 ## Running lovebird
 
 <img align="center" src="media/bird.gif">
 
-```sh
+``` sh
 $ lovebird
 # *********************************************
 # *                                           *
@@ -41,7 +41,7 @@ lovebird$ help
 
 #### `excuse` : best excuses to get out of relationship
 
-```sh
+``` sh
 lovebird$ excuse
 
 # 💔💔  I Just Need A Little Space.
@@ -50,7 +50,7 @@ lovebird$ excuse
 
 #### `reaction` : reaction for dummies who just got dumped
 
-```sh
+``` sh
 lovebird$ reaction
 
 # 🙌🙌  I can’t believe this.
@@ -58,7 +58,7 @@ lovebird$ reaction
 
 #### `survive` : get out of your shell and fight it.
 
-```sh
+``` sh
 lovebird$ survive
 
 # 🙌🙌  Eat healthfully and regularly.
@@ -66,14 +66,14 @@ lovebird$ survive
 
 #### `compliment` : say something nice and save your ass
 
-```sh
+``` sh
 lovebird$ compliment
 
 # 😻😻  You make me feel like it's summer.
 ```
 #### `propose` : stop being shy and hit it hard.
 
-```sh
+``` sh
 lovebird$ propose
 
 # 😻😻 I wanna say I love you, I wanna hold you tight
@@ -87,21 +87,21 @@ lovebird$ propose
 
 #### `gifts` : give something nice and save your ass
 
-```sh
+``` sh
 lovebird$ gift
 
 # 😻😻   Star Wars Lightsaber Candlestick.
 ```
 #### `idea` : Feeling out of luck. Well, Hope you are lucky
 
-```sh
+``` sh
 lovebird$ idea
 
 # 😻😻   Cuddle and have pizza.
 ```
 #### `counselor` : Feeling depressed? Meet professionals
 
-```sh
+``` sh
 lovebird$ counselor
 
 # 😻😻   Avani Parekh - lovedoctor.in
